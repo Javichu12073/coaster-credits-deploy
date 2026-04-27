@@ -1,5 +1,5 @@
 # Usamos una imagen de Tomcat 10 (más moderna) con Java 17 parcheado
-FROM tomcat:9.0-jdk17-temurin
+FROM tomcat:9.0-jdk21-temurin
 
 # Borramos las apps por defecto
 RUN rm -rf /usr/local/tomcat/webapps/*
